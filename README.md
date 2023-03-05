@@ -1,12 +1,18 @@
 # Bike-Rental-Demand-Perdiction
 Data cleaning &amp; feature engineering &amp; different prediction models &amp; model evaluation
-Project Proposal
+
+##Project Proposal
  
 Description:
+
 Prediction of the number of bicycles rented in an hour of a day in the Seoul Bike Sharing System based on different weather conditions and holiday information in Seoul
-Group members:
+
+####Group members:
+
 Mohammad Ahmadi, Zachary Huntley, Anurag Singh
-Dataset Description:
+
+####Dataset Description:
+
 The dataset is downloaded from https://archive-beta.ics.uci.edu/ website that provides dataset for education goals. The data set contains the number of bicycles rented in an hour for each day from 1.12.2017 to 31.11.2018. the weather condition also for each hour are specified in terms of Temperature(°C), Humidity(%), Wind speed (m/s), Visibility (10m), Dew point temperature(°C), Solar Radiation (MJ/m2), Rainfall(mm), Snowfall (cm) and Seasons. Holidays are specified for each day. As there were some days that the Seoul Bike Sharing System  was unable to provide service and no vehicle was rented during these days, they are shown in the column of Functioning days.
 Project Summary:
 Ddareungi (Korean: 따릉이) is Seoul's bike sharing system, which was set up in 2015. It is also named Seoul Bike in English. After a few months, the number of stations reached 150 and 1500 bikes were made available. In 2016, the number of stations has increased steadily to cover new districts. As of July 2016, there were about 300 stations and 3000 bikes available (Wikipedia).
