@@ -5,7 +5,7 @@ Data cleaning &amp; feature engineering &amp; different prediction models &amp; 
  
 ### Description:
 
-Prediction of the number of bicycles rented in an hour of a day in the Seoul Bike Sharing System based on different weather conditions and holiday information in Seoul
+Prediction of the number of bicycles rented in every hour of a day in the Seoul Bike Sharing System based on different weather conditions and holiday information in Seoul
 
 ### Group members:
 
@@ -29,7 +29,7 @@ As weather conditions play an important role in bike usage, forecasting the numb
  
 ### Methodology:
 
-Label variable: rented bike count
+Linear and non linear regression including Linear Regressor, Random Forest Regressor, Gradient Boosting Regressor, Decision Tree Regressor
 
 #### Data Description:
 
@@ -52,15 +52,17 @@ Label variable: rented bike count
 Pandas
 NumPy
 Matplotlib
-TensorFlow
+seaborn
 Scikit Learn
 
 #### Step to follow:
 Data preparation (cleaning, transformation, reduction)
-Feature engineering (Normalization)
-Splitting Data to Training and test dataset
-Modeling
-Training the model
-Tuning and optimizing the model
+
+Visualization and Feature Engineering (Normalization)
+
+Modeling and Evaluation
+
+HyperParameter Tuning
+
 
 
