@@ -49,20 +49,17 @@ Linear and non linear regression including Linear Regressor, Random Forest Regre
 - Functioning_Day: it shows that if the system were working or not. Yes or No
 
 #### Libraries: 
-Pandas
-NumPy
-Matplotlib
-seaborn
+Pandas,
+NumPy,
+Matplotlib,
+seaborn,
 Scikit Learn
 
 #### Step to follow:
-Data preparation (cleaning, transformation, reduction)
+Data preparation 
 
-Visualization and Feature Engineering (Normalization)
+Visualization and Feature Engineering
 
 Modeling and Evaluation
 
 HyperParameter Tuning
-
-
-
