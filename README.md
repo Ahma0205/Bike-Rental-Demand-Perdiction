@@ -13,20 +13,20 @@ Mohammad Ahmadi, Zachary Huntley, Anurag Singh
 
 ### Dataset Description:
 
-The dataset is downloaded from https://archive-beta.ics.uci.edu/ website that provides dataset for education goals. The data set contains the number of bicycles rented in an hour for each day from 1.12.2017 to 31.11.2018. the weather conditions also for each hour are specified in terms of Temperature(°C), Humidity(%), Wind speed (m/s), Visibility (10m), Dew point temperature(°C), Solar Radiation (MJ/m2), Rainfall(mm), Snowfall (cm) and Seasons. Holidays are specified for each day. As there were some days that the Seoul Bike Sharing System  was unable to provide service and no vehicle was rented during these days, they are shown in the column of Functioning days.
+The dataset was downloaded from the https://archive-beta.ics.uci.edu/ website, which provides datasets for educational purposes. The dataset contains the number of bicycles rented per hour for each day from 1.12.2017 to 31.11.2018. The weather conditions for each hour are also specified in terms of Temperature (°C), Humidity (%), Wind speed (m/s), Visibility (10m), Dew point temperature (°C), Solar Radiation (MJ/m2), Rainfall (mm), Snowfall (cm), and Seasons. Holidays are specified for each day. As there were some days during which the Seoul Bike Sharing System was unable to provide service and no vehicle was rented, these days are shown in the Functioning Days column.
 
 ### Project Summary:
 
-Seoul's bike sharing system, known as Ddareungi or Seoul Bike in English, was established in 2015 with 150 stations and 1500 bikes. Since then, the system has steadily expanded to cover new districts, and as of July 2016, there were about 300 stations and 3000 bikes available.
+Seoul's bike sharing system, known as Ddareungi or Seoul Bike in English, was established in 2015 with 150 stations and 1500 bikes. Since then, the system has steadily expanded to cover new districts, and as of July 2016, there were approximately 300 stations and 3000 bikes available.
 
 One of the biggest obstacles to the success of bike sharing systems is cost. The high cost of maintaining and renewing bicycles can lead to high rental costs for customers or a large budget for municipalities, which can hinder the popularity of such an environmentally-friendly system in cities. Additionally, inaccessibility is another challenge faced by users in cities with bike sharing systems, as stations may not have enough bicycles to meet demand during certain hours, which can negatively impact the popularity of the system.
 
-Bike sharing systems allow users to rent a bike from one station and return it to another station or simply leave it anywhere they please. In order to ensure that the system functions smoothly, providers must facilitate the relocation of abandoned bicycles to stations, which requires infrastructure and human resources that are costly. Predicting the number of bicycles needed can help to minimize the cost of relocations.
+Bike sharing systems allow users to rent a bike from one station and return it to another station or simply leave it anywhere they please. In order to ensure that the system functions smoothly, providers must facilitate the relocation of abandoned bicycles to stations, which requires costly infrastructure and human resources. Predicting the number of bicycles needed can help to minimize the cost of relocations.
 
 Furthermore, minimizing the number of bicycles stored in stations can protect the vehicles from different weather conditions and reduce maintenance costs, which can increase their lifespan and generate revenue for the system. Ultimately, accurately predicting the number of bicycles needed on an hourly basis each day can help the system balance supply and demand, leading to better service for customers.
 
-As weather conditions play an important role in bike usage, forecasting the number of bicycles needed each hour based on weather patterns are surveyed in this project.
- 
+As weather conditions play an important role in bike usage, this project surveys the forecasting of the number of bicycles needed each hour based on weather patterns.
+
 ### Methodology:
 
 Linear and non linear regression including Linear Regressor, Random Forest Regressor, Gradient Boosting Regressor, Decision Tree Regressor
@@ -49,6 +49,7 @@ Linear and non linear regression including Linear Regressor, Random Forest Regre
 - Functioning_Day: it shows that if the system were working or not. Yes or No
 
 #### Libraries: 
+
 Pandas,
 NumPy,
 Matplotlib,
@@ -56,6 +57,7 @@ seaborn,
 Scikit Learn
 
 #### Step to follow:
+
 Data preparation 
 
 Visualization and Feature Engineering
